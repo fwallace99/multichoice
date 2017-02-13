@@ -8,11 +8,17 @@ The Gem was written to enable users to rapidly create a Human Intelligence Task 
 
 #Arguments:
   *over_view_text is the overview for the Question you are asking Mturkers
+
   *identifier: format "Your_Name - HitNumber", example "John_Smith-1"
+
   *question: format "something you want to ask", example "Which of these is a cat?"
+
   *possibles: format ['A tabby cat', 'Leo Di Caprio since his name is Leo', 'Cat Stevens', 'The Year of the Cat by Al Stewart because Seventies Man!', 'None of the Above']
+
   *possibles is the only argument that is NOT A STRING, but an array.
+
   *possibles must have AT LEAST ONE ARRAY ELEMENT, which is at least one possible answer to the question. But to make sense to the Mturker workers you should have at least two, i.e
+  
   *possibles = ['The Band Stray Cats', 'None of the Above']
 
 ## Installation
