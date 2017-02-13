@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <QuestionForm xmlns="http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2005-10-01/QuestionForm.xsd">
+    <Overview>
+  <Text>This is a HIT to choose which of the following is a cat</Text>
+    </Overview>
+    <Question>
+<QuestionIdentifier>John_Smith-1</QuestionIdentifier><QuestionContent>
+<Text>Which of the following is a feline?</Text>
+</QuestionContent>
+       <AnswerSpecification>
+       <SelectionAnswer>
+    <StyleSuggestion>radiobutton</StyleSuggestion>
+    <Selections>
+<Selection>
+<SelectionIdentifier>Cat Stevens</SelectionIdentifier>
+<Text>Cat Stevens</Text>
+</Selection>
+<Selection>
+<SelectionIdentifier>The Year of the Cat by Al Stevens, Seventies Man</SelectionIdentifier>
+<Text>The Year of the Cat by Al Stevens, Seventies Man</Text>
+</Selection>
+<Selection>
+<SelectionIdentifier>Leo DiCaprio because his name is Leo</SelectionIdentifier>
+<Text>Leo DiCaprio because his name is Leo</Text>
+</Selection>
+<Selection>
+<SelectionIdentifier>a tabby cat</SelectionIdentifier>
+<Text>a tabby cat</Text>
+</Selection>
+<Selection>
+<SelectionIdentifier>None of the Above, they are all wrong</SelectionIdentifier>
+<Text>None of the Above, they are all wrong</Text>
+</Selection>
+    </Selections>
+  </SelectionAnswer>
+     </AnswerSpecification>
+    </Question>
+  </QuestionForm>
