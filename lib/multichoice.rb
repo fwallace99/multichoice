@@ -31,7 +31,7 @@ module MultiChoice
 <?xml version="1.0" encoding="UTF-8"?>
     <QuestionForm xmlns="http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2005-10-01/QuestionForm.xsd">
       <Overview>
-      <Text>For the given product, look at potential matches to find the matching product. Select the appropriate match from the options.  Please ignore things like ml or mg options. We are only looking for word matches The numbers at the end don't matter. If no match select "no match".</Text>
+      <Text>F#{@over_view_text}</Text>
       </Overview>
       <Question>
 HERE
@@ -69,7 +69,7 @@ ANS1
 
     bottom_answer = <<BOTTOM
 
-        
+
       </Selections>
     </SelectionAnswer>
        </AnswerSpecification>
