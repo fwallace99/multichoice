@@ -31,7 +31,7 @@ module MultiChoice
 <?xml version="1.0" encoding="UTF-8"?>
     <QuestionForm xmlns="http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2005-10-01/QuestionForm.xsd">
       <Overview>
-      <Text>F#{@over_view_text}</Text>
+      <Text>#{@over_view_text}</Text>
       </Overview>
       <Question>
 HERE
